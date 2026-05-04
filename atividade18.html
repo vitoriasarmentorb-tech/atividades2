@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+     <label for="">Digite o primeiro para somar com o segundo: </label>
+    <input type="number" id="somar"></input>
+    <label for="">Digite o segundo para somar com o primeiro: </label>
+    <input type="number" id="somar2"></input>
+    <button onclick="somar()">Clique aqui para somar</button>
+    <p id="resultado"></p>
+    <script>
+        function somar() {
+            
+            let primeiro = Number.parseInt(document.getElementById("somar").value)
+            let segundo = Number.parseInt(document.getElementById("somar2").value)
+        
+            let resultado = primeiro + segundo
+            document.getElementById("resultado").innerHTML = "O resultado é: "+ resultado;
+        }
+        
+    </script>
+
+</body>
+
+</html>
