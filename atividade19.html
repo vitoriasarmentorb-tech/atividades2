@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <label for="">Digite seu Nome</label>
+    <input type="text" name="" id="nome" placeholder="Digite seu nome aqui"></input>
+    <label for="">Digite sua Idade</label>
+    <input type="number" id="Idade" placeholder="Digite sua idade" required>
+    <button onclick="mostrar()">mostrar</button>
+    <p id="resultado"></p>
+    <script>    
+        function mostrar() {
+            const nome = document.getElementById("nome").value;
+            const Idade = document.getElementById("Idade").value;
+
+            document.getElementById("resultado").innerHTML = " Bem-Vindo " +nome+ " você tem "+Idade;
+        }
+    </script>
+
+</body>
+</html>
