@@ -1,0 +1,25 @@
+body {
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: aliceblue;
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 10px;
+
+}
+
+button {
+
+
+    width: 100%;
+    margin-top: 20px;
+}
