@@ -1,0 +1,20 @@
+body{
+    background:#f3e7fa;
+}
+
+.container{
+    margin-top:40px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.card{
+    padding:20px;
+}
+
+table{
+    background:white;
+}
